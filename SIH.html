@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Waste Recycling Locator</title>
+    
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+#map {
+    /* Define map styles or integration here */
+}
+
+#ewaste-info {
+    text-align: center;
+}
+
+#learn-more {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#device-input {
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>E-Waste Recycling Locator</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Find Nearest Facility</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="map">
+            <!-- Google Maps integration or map display here -->
+        </section>
+
+        <section id="ewaste-info">
+            <h2>E-Waste Education</h2>
+            <p>Learn about the harmful components of e-waste and their effects on the environment and human health.</p>
+            <button id="learn-more">Learn More</button>
+        </section>
+
+        <section id="device-input">
+            <h2>Recycle Your Device</h2>
+            <p>Input the model of your old device to earn credit points.</p>
+            <form>
+                <input type="text" id="device-model" placeholder="Enter Device Model">
+                <button id="recycle-button">Recycle</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p align="center">&copy; 2023 E-Waste Recycling Locator</p>
+    </footer>
+</body>
+</html>
